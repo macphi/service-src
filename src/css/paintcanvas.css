@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.tool{
+    background: rgb(90, 118, 179);
+    display: flex;
+    align-items: center;
+
+}
+.tool >*{
+    height: 40px;
+    width: 40px;
+    background: white;
+    margin: 5px;
+    font-size: 20px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#save{
+    margin-left: auto;
+}
+.canvas{
+    border-radius: 1px solid black;
+    margin: 0 auto;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
